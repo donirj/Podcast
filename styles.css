@@ -160,21 +160,20 @@
     width: 298px;
   }
 
-  .embed2 iframe {
-    height: 225px;
-    width: 298px;
-  }
+  
 
 
   /*
 *   origen
 */
+  .container-fluid6{
+    transform: translateY(-70px); 
+  }
 
   .donde {
     padding-left: 20px;
     font-size: 36px;
     font-family: 'IBM Plex Sans', sans-serif;
-    transform: translateY(-60);
   }
 
   .parrafo2 {
@@ -182,18 +181,14 @@
     padding-left: 16px;
     padding-right: 16px;
     font-family: 'IBM Plex Mono', monospace;
-    transform: translateY(-60);
-
   }
 
   .phone0 {
     max-width: 100%;
-    transform: translateY(-40px);
     display: block;
     height: 519px;
     width: 360px;
   }
-
 
 
   /*
@@ -506,7 +501,8 @@
   .parrafo1 {
     font-family: 'IBM Plex Mono', monospace;
     margin-left: 200px;
-
+    width: 628px;
+    transform: translateY(-50px);
   }
 
   .button1 {
