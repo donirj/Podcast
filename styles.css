@@ -1,8 +1,11 @@
 /*
 *   Inicio Mobile
 */
-
+/*
 @media(max-width:320px) {
+*/
+
+
   .container {
     padding: 10px 20px;
   }
@@ -41,7 +44,7 @@
     margin: 0;
   }
 
-  .img-fluid {}
+
 
   .f-right {
     float: right;
@@ -120,7 +123,7 @@
 
 
   /*
-*   episodios
+*   episodios mobile
 */
 
   .episodios1 .clipped-background {
@@ -164,7 +167,7 @@
 
 
   /*
-*   origen
+*   origen mobile
 */
   .container-fluid6{
     transform: translateY(-70px); 
@@ -260,7 +263,7 @@
 
 
   /*
-*   novedades
+*   novedades mobile
 */
 
 
@@ -309,7 +312,7 @@
 
 
   /*
-*   footer
+*   footer mobile
 */
 
   .footer {
@@ -328,6 +331,7 @@
     padding: 20px;
     height: 16px;
     width: 16px;
+    color: black;
   }
 
   .icon3 {
@@ -337,7 +341,7 @@
 
   }
 
-}
+
 
 /*
 *   Fin mobile
@@ -349,7 +353,7 @@
 *   Inicio Desktop
 */
 
-@media(min-width:321px) {
+@media(min-width:601px) {
   .container {
     padding: 0;
   }
@@ -492,7 +496,7 @@
   }
 
   .hello {
-    font-size: 64px;
+    font-size: 45px;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-left: 200px;
 
@@ -557,28 +561,22 @@
   }
 
   .pod1 {
-    padding-left: 100px;
-    width: 524px;
+    width: 584px;
     height: 232px;
   }
 
   .pod2 {
-    padding-left: 100px;
-    width: 524px;
+    width: 584px;
     height: 232px;
   }
 
   .pod3 {
-    padding-top: 72px;
-    padding-left: 100px;
-    width: 524px;
+    width: 584px;
     height: 232px;
   }
 
   .pod4 {
-    padding-top: 72px;
-    padding-left: 100px;
-    width: 524px;
+    width: 584px;
     height: 232px;
   }
 
@@ -587,6 +585,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     transform: translateY(-100px);
+    padding-left: 100px;
   }
 
 
@@ -773,6 +772,7 @@
     height: 16px;
     width: 16px;
     margin-right: 36px;
+    color: black;
   }
 
   .icon3 {
