@@ -115,6 +115,8 @@
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
+ 
+
   .parrafo1 {
 
     font-family: 'IBM Plex Mono', monospace;
@@ -512,7 +514,10 @@
     font-size: 45px;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-left: 200px;
+  }
 
+  .hello h1 br{
+    display: none;
   }
 
   .parrafo1 {
