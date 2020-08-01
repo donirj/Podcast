@@ -108,13 +108,18 @@
     font-family: 'IBM Plex Mono', monospace;
   }
 
-
+.button1:hover{
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
 
   .hello {
     font-size: 36px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
+  .span{
+    text-decoration: line-through;
+  }
  
 
   .parrafo1 {
@@ -155,7 +160,7 @@
   }
 
   .episodios {
-    font-size: 36px;
+    font-size: 50px;
     padding-left: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
@@ -189,7 +194,7 @@
 
   .donde {
     padding-left: 20px;
-    font-size: 36px;
+    font-size: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
@@ -212,14 +217,15 @@
 *   invitados
 */
 
-  .Invitadas {
+  .Invitadas1 {
     padding-left: 16px;
-    font-size: 36px;
+    font-size: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
 
   .invitadas2 {
+
     height: 100%;
     width: 100%;
     display: block;
@@ -234,7 +240,7 @@
 
   .temas1 {
     padding-left: 16px;
-    font-size: 36px;
+    font-size: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
     justify-content: center;
     align-items: center;
@@ -294,7 +300,7 @@
   }
 
   .ultimas1 {
-    font-size: 36px;
+    font-size: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
     justify-content: center;
@@ -316,6 +322,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .button2:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   }
 
   .boton {
@@ -506,12 +516,19 @@
     width: 36px;
     height: 36px;
     margin: 22px 0px 22px 100px;
-
-
   }
 
+  .nav1:hover{
+  color: #00F3BB;
+  text-decoration: line-through;
+  }
+  .nav1:active{
+    color: gray;
+    text-decoration: line-through;
+    }
+
   .hello {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-left: 200px;
   }
@@ -567,8 +584,8 @@
 
   .episodios {
     font-size: 48px;
-    margin-left: 175px;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 175px;
     transform: translateY(-100px);
 
   }
@@ -640,13 +657,12 @@
     padding: 0;
   }
 
-  .Invitadas {
-
+  .Invitadas1 {
     font-size: 48px;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
-  .Invitadas1 {
+  .Invitadas {
     padding-left: 200px;
   }
 
@@ -683,11 +699,11 @@
     transform: translateY(-160px);
   }
 
+  
+
   .temas1 {
-    padding-left: 200px;
     font-size: 48px;
     font-family: 'IBM Plex Sans', sans-serif;
-
   }
 
 
