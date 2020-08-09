@@ -101,7 +101,12 @@ body {
   line-height: 28px;
   background: #0000EC;
   list-style-type: none;
+
 }
+
+a{
+  color: inherit;
+  }
 
 .button1 {
   background-color: #00F3BB;
@@ -195,7 +200,7 @@ background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 *   origen mobile
 */
 .container-fluid6{
-  transform: translateY(-70px); 
+  transform: translateY(-50px); 
 }
 
 .donde {
@@ -423,8 +428,8 @@ header label {
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-
 }
+
 
 .dmenu li {
   color: black;
@@ -432,6 +437,8 @@ header label {
   padding: 15px;
   font-family: 'IBM Plex Mono', monospace;
 }
+
+
 
 .dcol-11 {
   width: 85%;
@@ -472,6 +479,10 @@ body {
   width: 36px;
   height: 36px;
   margin: 22px 0 22px 100px;
+}
+
+a{
+color: inherit;
 }
 
 .nav1:hover{
